@@ -1,3 +1,4 @@
+   
 <!DOCTYPE html>
 <html>
    
@@ -6,17 +7,17 @@
 <body>
 <tr>
 
-<h1>วิทยาลัยพณิชน์การบางนา</h1>
-<h2>สมัครเรียนทางออนไลน์ </h2>
+<h1>Commercial College Bangna</h1>
+<h2>Apply for clesses online</h2>
 
-<form action="/action_page.php">
+<form action="/action_page.php" method="post">
     <table> 
 
     <input type="radio" id="prefix" name="prefix" value="Mr.">
-  <label for="mr">Mr.</label><br>
+  <label for="mr">Mr.</label><br>
 
-  <input type="radio" id="prefix" name="prefix" value="Mrs.">
-  <label for="mrs">Mrs.</label><br>
+  <input type="radio" id="prefix" name="prefix" value="Mrs.">
+  <label for="mrs">Mrs.</label><br>
 
 <label for="name">Name:</label><br>
  <input type="text" id="name" name="namee" placeholder="Pemak"require><br>
@@ -46,25 +47,25 @@
   <input type="file" id="myfile" name="file">
 
   <p>ต้องการลงระดับชั้นอะไร<p>
-  <input type="checkbox" id="lv1" name="voc1" value="Voc.Cert">
+  <input type="radio" id="prefixs" name="prefixs" value="Voc.Cert">
 <label for="Level1">Voc.Cert</label><br>
 
-  <input type="checkbox" id="lv2" name="voc2" value="Dip Voc. Cert">
+  <input type="radio" id="prefixs" name="prefixs" value="Dip Voc. Cert">
 <label for="Level2">Dip Voc. Cert</label><br>
 
-<label for="subject">แผนกวิชา:</label>
+<label for="subject">Department:</label>
 <select id="subject" name="subjects">
-    <option value="บัญชีMEP">แผนกการบัญชี MEP</option>
-  <option value="บัญชี">แผนกการบัญชี</option>
-  <option value="การตลาด">แผนกการตลาด</option>
-  <option value="เลขานุการ">แผนกการเลขานุการ</option>
-  <option value="คอมพิวเตอร์ธุรกิจ">แผนกคอมพิวเตอร์ธุรกิจ</option>
-  <option value="ภาษาอังกฤษ">แผนกภาษาต่างประเทศ (อังกฤษ)</option>
-  <option value="ภาษาจีน">แผนกภาษาต่างประเทศ (จีน)</option>
-  <option value="โลจิสติกส์">แผนกโลจิสติกส์</option>
-  <option value="ธุรกิจค้าปลีก">แผนกธุรกิจค้าปลีก</option>
-  <option value="โรงแรม">แผนกการโรงแรม</option>
-  <option value="เทคโนโลยีสารสนเทศ">แผนกเทคโนโลยีสารสนเทศ</option>
+    <option value="บัญชีMEP">Accountancy MEP</option>
+  <option value="บัญชี">Accountancy</option>
+  <option value="การตลาด">Marketing</option>
+  <option value="เลขานุการ">Secretary</option>
+  <option value="คอมพิวเตอร์ธุรกิจ">Business Computer</option>
+  <option value="ภาษาอังกฤษ">Foreign Languages (English)</option>
+  <option value="ภาษาจีน">Foreign Languages (Chinese)</option>
+  <option value="โลจิสติกส์">Logistics</option>
+  <option value="ธุรกิจค้าปลีก">Retail Business</option>
+  <option value="โรงแรม">Hospitality</option>
+  <option value="เทคโนโลยีสารสนเทศ">Information Technology (I.T.)</option>
 </select><br>
 <input type="submit" value="Submit">
   <input type="reset">
