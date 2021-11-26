@@ -1,0 +1,30 @@
+<?php
+$servername="localhost";
+$username="root";
+$password="";
+$dbname="bncc";
+$conn = new mysqli($servername, $username, $password, $dbname);
+if ($conn->connect_error){
+    die("Connection failed: " . $conn->connet_error);
+}
+$prefix=$_POST["prefix"];
+$fname=$_POST["fname"];
+$lsurname=$_POST["lsurname"];
+$nname=$_POST["nname"];
+$age=$_POST["age"];
+$dated=$_POST["dated"];
+$htstd=$_POST["htstd"];
+$wtstd=$_POST["wtstd"];
+$phone=$_POST["phone"];
+$gmail=$_POST["gmail"];
+$prefixs=$_POST["prefixs"];
+$subject=$_POST["subject"];
+$sql = "INSERT INTO form VALUES (0,'$fname','$lname','$nname','$idcard','$birth','$age',
+'$gender','$place','$home','$email','$phone','$levels','$branch')";
+if ($conn->query($sql) === TRUE) {
+    echo"New record created succssfully";
+} else{
+    echo "Error: " . $sql . "<br>" . $conn->error;
+}
+$conn->close();
+?>
