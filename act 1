@@ -1,0 +1,79 @@
+   
+<!DOCTYPE html>
+<html>
+   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<body>
+<tr>
+
+<h1>Commercial College Bangna</h1>
+<h2>Apply for clesses online</h2>
+
+
+
+<form action="Lovetrain.php" method="post">
+    <table> 
+
+    <input type="radio" id="prefix" name="prefix" value="Mr.">
+  <label for="mr">Mr.</label><br>
+
+  <input type="radio" id="prefix" name="prefix" value="Mrs.">
+  <label for="mrs">Mrs.</label><br>
+
+<label for="name">Name:</label><br>
+ <input type="text" id="fname" name="namee" placeholder="Tamark"require><br>
+
+<label for="surname">Surname:</label><br>
+ <input type="text" id="lsurname" name="surnamee" placeholder="Wanjun"require><br>
+
+ <label for="nickname">Nickname:</label><br>
+ <input type="text" id="nname" name="nnamee" placeholder="Tawan"require><br>
+
+ <label for="age">Age:</label>
+ <input type="number" id="age" name="aged" min="14" max="20"require><br>
+
+ <label for="date">Birthday:</label>
+  <input type="date" id="dated" name="bdstd" max="2007-12-31"><br><br>
+
+<label for="height">Height:</label>
+<input type="number" id="htstd" name="hstd" min="140" max="200" step="1" value="170">
+
+<label for="weight">Weight:</label>
+<input type="number" id="wtstd" name="wstd" min="25" max="150" step="1" value="60"><br>
+
+  <label for="phone">Phonenumber:</label>
+  <input type="tel" id="phone" name="phonenum" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="012-345-6789" require><br>
+
+ <label for="email">Email:</label>
+  <input type="email" id="gmail" name="egmail"><br>
+
+  <p>ต้องการลงระดับชั้นอะไร<p>
+  <input type="radio" id="prefixs" name="prefixs" value="Voc.Cert">
+<label for="Level1">Voc.Cert</label><br>
+
+  <input type="radio" id="prefixs" name="prefixs" value="Dip Voc. Cert">
+<label for="Level2">Dip Voc. Cert</label><br>
+
+<label for="subject">Department:</label>
+<select id="subject" name="subjects">
+    <option value="บัญชีMEP">Accountancy MEP</option>
+  <option value="บัญชี">Accountancy</option>
+  <option value="การตลาด">Marketing</option>
+  <option value="เลขานุการ">Secretary</option>
+  <option value="คอมพิวเตอร์ธุรกิจ">Business Computer</option>
+  <option value="ภาษาอังกฤษ">Foreign Languages (English)</option>
+  <option value="ภาษาจีน">Foreign Languages (Chinese)</option>
+  <option value="โลจิสติกส์">Logistics</option>
+  <option value="ธุรกิจค้าปลีก">Retail Business</option>
+  <option value="โรงแรม">Hospitality</option>
+  <option value="เทคโนโลยีสารสนเทศ">Information Technology (I.T.)</option>
+</select><br>
+<input type="submit" value="Submit">
+  <input type="reset">
+
+</form>
+</tr>
+</table>
+</body>
+</html>
