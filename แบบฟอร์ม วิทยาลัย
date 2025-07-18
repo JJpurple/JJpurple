@@ -5,7 +5,7 @@
     <meta charset="UTF-8"> 
     <!-- อันนี้เป็นภาษาโค้ดที่คุณนั้นต้องใส่เพื่อรองรับภาษา -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- กูไม่รู้ว่าคืออะไร ค่อยหา ตอนนี้ขี้เกียจ -->
+    <!-- โดยเฉพาะบนโทรศัพท์มือถือ width=device-width กำหนดให้ความกว้างของหน้าเว็บไซต์เท่ากับความกว้างของหน้าจออุปกรณ์ initial-scale=1.0 กำหนดระดับการซูมเริ่มต้นเมื่อโหลดหน้าเว็บ -->
 <table aria-label="leftcenter"></table>
 <body>
 <tr>
