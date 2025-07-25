@@ -1,7 +1,8 @@
 <head>
 <style>
  table, th, td {
-  border: 1px solid black;
+  border: 2px solid black;
+    border-collapse: collapse;
     }
 </style>
 <!DOCTYPE html>
@@ -17,14 +18,16 @@
             <tr>
               <th> Number </th>
               <th> ID Number</th>
-              <th colspan="2"> Name</th>
-              <th colspan="2"> Nickname </th>
+              <th> Name</th>
+              <th> Nickname </th>
               <th>Number Phone</th>
             </tr>
             <tr>
               <td>1</td>
               <td>68319010001</td>
               <td> น.ส. นธกร พจนาเดชเจริญ</td>
+              <td>แบมแบม</td>
+              <td>000-000-0000</td>
             </tr> 
             <tr>
               <td>2</td>
