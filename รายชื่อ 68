@@ -1,10 +1,10 @@
 <head>
-    <style>
-      table, th, td {
-        border: 1px solid black;
-      }
-    </style>
-    <!DOCTYPE html>
+<style>
+ table, th, td {
+  border: 1px solid black;
+    }
+</style>
+<!DOCTYPE html>
     <html>
       <h2>BNCC I.T. 1/1
       </h2>
@@ -20,7 +20,6 @@
               <th colspan="2"> Name</th>
               <th colspan="2"> Nickname </th>
               <th>Number Phone</th>
-              <th></th>
             </tr>
             <tr>
               <td>1</td>
@@ -34,9 +33,6 @@
             </tr>
             <tr>
               <td>3</td>
-              <td>68319010028 
-              </td>
-              <td>น.ส. โศภิตา 
               <td>68319010003</td>
               <td>นาย สุทธิภัทร ชัยสุวรรณ</td>
             </tr>
@@ -49,8 +45,7 @@
               <td>5</td>
               <td>68319010005 
               </td>
-              <td>น.ส.กรรณิการ์ จันทร์ดี
-              </td>
+              <td>น.ส.กรรณิการ์ จันทร์ดี</td>
             </tr>
             <tr>
               <td>6
@@ -84,15 +79,9 @@
               </td>
             </tr>
             <tr>
-              <td> 10
-              <td>68319010028 
-              </td>
-              <td>น.ส. โศภิตา 
-              </td>
-              <td>68319010011 
-              </td>
-              <td> นาย นิติธร
-              </td>
+            <td> 10 </td>
+            <td>68319010011</td>
+            <td> นาย นิติธร</td>
             </tr>
             <tr>
               <td>11
@@ -103,24 +92,15 @@
               </td>
             </tr>
             <tr>
-              <td>12
-              <td>68319010028 
-              </td>
-              <td>น.ส. โศภิตา 
-              </td>
-              <td>68319010015
-              </td>
-              <td> นาย อ๓ิวัฒน์
-              </td>
+              <td>12</td>
+              <td>68319010015</td>
+              <td> นาย อภิวัฒน์</td>
             </tr>
             <tr>
               <td>13
               </td>
               <td>68319010016 
               </td>
-              <td>68319010028 
-              </td>
-              <td>น.ส. โศภิตา 
               <td>นาย ปาณวุฒิ
               </td>
             </tr>
@@ -148,9 +128,8 @@
               <td> นาย อริยพงศ์
               </td>
             </tr>
-              <td>68319010028 
-              </td>
-              <td>น.ส. โศภิตา 
+
+
             <tr>
               <td>17
               </td>
